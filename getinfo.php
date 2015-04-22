@@ -8,11 +8,11 @@ function logg($text){
 };
 
 $options = array(
-    'token'=>'V33EVnmi83io', //填写应用接口的Token
- 			'encodingaeskey'=>'uCiMenjsWGVjMvfpoDlKK1UPQeRhBmv1D8LgD8g1Vpg', //填写加密用的EncodingAESKey
- 			'appid'=>'wx97c0a02055d2452c', //填写高级调用功能的app id
- 			'appsecret'=>'pkK9IsmJIsS41Q_5JEfG7kpcNVXX-NM3KpyH9mK7_wGjD_jS6baXzCAtnDEJkSm5', //填写高级调用功能的密钥
- 			'agentid'=>'7', //应用的id
+    'token'=>'', //填写应用接口的Token
+ 			'encodingaeskey'=>'', //填写加密用的EncodingAESKey
+ 			'appid'=>'', //填写高级调用功能的app id
+ 			'appsecret'=>'', //填写高级调用功能的密钥
+ 			'agentid'=>'', //应用的id
     'debug'=>true, //调试开关
     'logcallback'=>'logg', //调试输出方法，需要有一个string类型的参数
  		);
